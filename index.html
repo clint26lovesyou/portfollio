@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinton Jay Villacin | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="scroll-smooth">
+
+    <nav class="fixed top-0 w-full z-50 nav-blur border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tighter"><span class="text-red-600"></span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest text-gray-400">
+                <a href="#home" class="hover:text-red-500 transition">Home</a>
+                <a href="#about" class="hover:text-red-500 transition">About</a>
+                <a href="#resume" class="hover:text-red-500 transition">Resume</a>
+                <a href="#contact" class="hover:text-red-500 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center pt-20 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl md:text-7xl font-bold mb-4"><span class="text-red-600">Clinton Jay Villacin</span></h1>
+                <h2 class="text-2xl text-gray-400 mb-6 italic">BSIT 3 SOUTH INFORMATION TECHONOLOGY</h2>
+                <p class="text-gray-500 leading-relaxed mb-8 max-w-md">
+                    Passionate IT student specializing in clean, structured, and visually engaging digital experiences.
+                </p>
+                <div class="flex space-x-4 mb-8">
+                    <a href="#" class="text-2xl hover:text-red-600 transition-colors"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-2xl hover:text-red-600 transition-colors"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-2xl hover:text-red-600 transition-colors"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="#contact" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-md font-bold transition inline-block">Hire Me</a>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-red-600 red-glow relative z-10">
+                    <img src="profile.jpg" alt="Clinton's Profile Photo" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute w-72 h-72 md:w-96 md:h-96 bg-red-900/20 rounded-full blur-3xl -z-0"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-black/50">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h3 class="text-red-600 font-bold uppercase tracking-widest mb-10">Tech Stack</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="skill-card">
+                    <i class="fab fa-html5 text-4xl text-orange-500 mb-2"></i>
+                    <span class="text-xs font-bold">HTML</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt text-4xl text-blue-500 mb-2"></i>
+                    <span class="text-xs font-bold">CSS</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js text-4xl text-yellow-400 mb-2"></i>
+                    <span class="text-xs font-bold">JAVASCRIPT</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react text-4xl text-cyan-400 mb-2"></i>
+                    <span class="text-xs font-bold">REACT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16">
+            <div>
+                <h3 class="section-title">About Me</h3>
+                <p class="text-gray-400 leading-relaxed mb-4">
+                    I’m a passionate and detail-oriented designer from Binaobao, Bantayan, currently pursuing a BSIT degree at Madridejos Community College.
+                </p>
+                <div class="mt-8 space-y-4">
+                    <div class="flex items-center space-x-3 text-sm">
+                        <span class="text-red-600"><i class="fas fa-envelope"></i></span>
+                        <span>villacinclintonjay@gmail.com</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-sm">
+                        <span class="text-red-600"><i class="fas fa-phone"></i></span>
+                        <span>09859416301</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="resume">
+                <h3 class="section-title">Education</h3>
+                <div class="space-y-6">
+                    <div class="card-bg p-5 rounded-lg">
+                        <span class="text-red-500 text-xs font-bold">2022 — 2026</span>
+                        <h4 class="font-bold">Madridejos Community College</h4>
+                        <p class="text-sm text-gray-500 italic">Bachelor of Science in IT</p>
+                    </div>
+                    <div class="card-bg p-5 rounded-lg">
+                        <span class="text-red-500 text-xs font-bold">2020 — 2021</span>
+                        <h4 class="font-bold">Bantayan National High School</h4>
+                        <p class="text-sm text-gray-500 italic">TVL – Computer Systems Servicing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 bg-[#050505]">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-4xl font-bold mb-6 uppercase tracking-tighter">Contact <span class="text-red-600">Me</span></h3>
+                <p class="text-gray-500 mb-8">I'm always open to new projects, collaborations, or creative ideas. Feel free to reach out!</p>
+                <div class="space-y-4">
+                    <p class="text-sm"><i class="fas fa-map-marker-alt text-red-600 mr-2"></i> Kampingganon, Bantayan, Cebu</p>
+                </div>
+            </div>
+            <div class="card-bg p-8 rounded-xl shadow-2xl">
+                <form id="contactForm" class="space-y-4">
+                    <input type="text" placeholder="Full Name" required class="form-input">
+                    <input type="email" placeholder="Email Address" required class="form-input">
+                    <textarea rows="4" placeholder="Your Message" required class="form-input"></textarea>
+                    <button type="submit" class="w-full bg-red-600 hover:bg-red-700 py-3 font-bold transition rounded">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-600 border-t border-gray-900 text-xs uppercase tracking-widest">
+        &copy; 2026 Clinton Jay Villacin. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

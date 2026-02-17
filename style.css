@@ -1,0 +1,138 @@
+/* ===============================
+   GLOBAL STYLES
+=================================*/
+body {
+    background: radial-gradient(circle at top, #111111 0%, #0a0a0a 60%, #050505 100%);
+    color: #f5f5f5;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.3px;
+}
+
+/* Smooth transitions everywhere */
+* {
+    transition: all 0.3s ease;
+}
+
+/* ===============================
+   NAVIGATION
+=================================*/
+.nav-blur {
+    backdrop-filter: blur(14px);
+    background: rgba(15, 15, 15, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ===============================
+   HERO IMAGE GLOW
+=================================*/
+.red-glow {
+    box-shadow:
+        0 0 40px rgba(255, 0, 0, 0.3),
+        0 0 80px rgba(255, 0, 0, 0.1);
+}
+
+/* ===============================
+   SECTION TITLES
+=================================*/
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    margin-top: 8px;
+    background: linear-gradient(to right, #dc2626, transparent);
+}
+
+/* ===============================
+   CARD DESIGN
+=================================*/
+.card-bg {
+    background: rgba(20, 20, 20, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+}
+
+.card-bg:hover {
+    transform: translateY(-6px);
+    border-color: rgba(220, 38, 38, 0.6);
+    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.15);
+}
+
+/* ===============================
+   TECH STACK CARDS
+=================================*/
+.skill-card {
+    padding: 1.8rem;
+    background: rgba(20, 20, 20, 0.8);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.skill-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    border-color: #dc2626;
+    box-shadow: 0 15px 35px rgba(220, 38, 38, 0.15);
+}
+
+/* ===============================
+   BUTTONS
+=================================*/
+button,
+a.bg-red-600 {
+    box-shadow: 0 5px 15px rgba(220, 38, 38, 0.3);
+}
+
+button:hover,
+a.bg-red-600:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
+}
+
+/* ===============================
+   FORM INPUTS
+=================================*/
+.form-input {
+    width: 100%;
+    background: rgba(10, 10, 10, 0.9);
+    border: 1px solid #1f2937;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.form-input:focus {
+    border-color: #dc2626;
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.3);
+}
+
+/* ===============================
+   SCROLL REVEAL ANIMATION
+=================================*/
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+footer {
+    background: #050505;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+}
